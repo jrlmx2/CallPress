@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/!svn/ver/253766/bsuite/trunk/templates-post
+END
+c_default_tiny.php
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/!svn/ver/147347/bsuite/trunk/templates-post/c_default_tiny.php
+END
+d_default_titleonly.php
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/!svn/ver/147347/bsuite/trunk/templates-post/d_default_titleonly.php
+END
+a_default_photo.php
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/!svn/ver/149130/bsuite/trunk/templates-post/a_default_photo.php
+END
+b_default_excerpt.php
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/!svn/ver/147347/bsuite/trunk/templates-post/b_default_excerpt.php
+END
+e_default_icon.php
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/!svn/ver/253766/bsuite/trunk/templates-post/e_default_icon.php
+END
+e_default_icontiny.php
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/!svn/ver/253766/bsuite/trunk/templates-post/e_default_icontiny.php
+END
+a_default_full.php
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/!svn/ver/147347/bsuite/trunk/templates-post/a_default_full.php
+END

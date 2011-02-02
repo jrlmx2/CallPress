@@ -1,0 +1,107 @@
+.ninespot-block .row{
+	position: relative;
+}
+
+.ninespot-block select{
+	width: 6em;
+}
+
+.ninespot-block table{
+	line-height: 1em;
+}
+
+.ninespot-block td{
+	padding: 0;
+}
+
+.ninespot-block h4{
+	margin: 0 1em 0 0;
+}
+
+.ninespot-block  .block{
+	margin-bottom: 4px;
+}
+
+.ninespot-block .empty .tiny_container_16{
+	opacity: 0.4;
+}
+
+.ninespot-block .sub-block{
+	background: #eee;
+	border: 1px solid #ccc;
+	color: #ccc;
+	font-size: 1.5em;
+	padding: 0.25em;
+	text-align: center;
+}
+
+.grid_0{display: none;}
+
+.ninespot-block #ninespot-head .sub-block{
+	height: 20px;
+}
+
+.ninespot-block #ninespot-nav .sub-block{
+	height: 15px;
+}
+
+.ninespot-block #ninespot-pre-body .sub-block{
+	height: 30px;
+}
+
+.ninespot-block #ninespot-body .sub-block{
+	height: 50px;
+}
+
+.ninespot-block #ninespot-post-body .sub-block{
+	height: 30px;
+}
+
+.ninespot-block #ninespot-foot .sub-block{
+	height: 20px;
+}
+
+.ninespot-columns label{
+	display: block;
+}
+
+.ninespot-columns li{
+	float: left;
+	width: 5em;
+}
+
+
+#ninespot-settings{
+	margin: 2em 1em 2em 0;
+}
+
+#ninespot-tabs{
+	margin: 0;
+	padding: 0;
+}
+
+#ninespot-tabs li{
+	background: #e5e5e5;
+	border: 1px solid #ccc;
+	float: left;
+	margin-right: 0.25em;
+	margin-bottom: 0;
+	padding: 0.5em 1em;
+	position: relative;
+	top: 1px;
+	z-index: 5;
+}
+#ninespot-tabs li:hover{background: #f5f5f5;}
+
+#ninespot-tabs a{text-decoration: none;}
+#ninespot-tabs li.active{
+	background: #f5f5f5;
+	border-bottom: 1px solid #f5f5f5;
+}
+
+.ninespot-block{
+	background: #f5f5f5;
+	border: 1px solid #ccc;
+	clear:both;
+	padding: 1em;
+}

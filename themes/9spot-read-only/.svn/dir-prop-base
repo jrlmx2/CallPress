@@ -1,0 +1,8 @@
+K 13
+svn:externals
+V 210
+components http://svn.wp-plugins.org/bsuite/trunk/components/
+templates-post http://svn.wp-plugins.org/bsuite/trunk/templates-post/
+templates-response http://svn.wp-plugins.org/bsuite/trunk/templates-response/
+
+END
