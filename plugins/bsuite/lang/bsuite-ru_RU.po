@@ -1,0 +1,562 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: BS\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-06-11 12:46+0900\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Fat Cow <zhr@tut.by>\n"
+"Language-Team: Fat Cow <zhr@tut.by>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Russian\n"
+"X-Poedit-Country: RUSSIAN FEDERATION\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: bsuite.php:210
+#: bsuite.php:211
+msgid "bSuite Post Icon"
+msgstr "b иконка постов сайта"
+
+#: bsuite.php:741
+msgid "Upload New"
+msgstr "загрузить новый"
+
+#: bsuite.php:742
+#, php-format
+msgid "%s max"
+msgstr "%s  максимально"
+
+#: bsuite.php:749
+#: bsuite.php:766
+#: bsuite.php:782
+msgid "You do not have permission to upload files."
+msgstr "у вас нет разрешения загружть файлы"
+
+#: bsuite.php:755
+#: bsuite.php:772
+#: bsuite.php:789
+msgid "You cannot add an icon to a post you`re not currently editing."
+msgstr "вы не можете добавить иконку к посту, который вы сейчас редактируете"
+
+#: bsuite.php:1090
+msgid "Permalink"
+msgstr "Прямая ссылка"
+
+#: bsuite.php:1157
+msgid "Could not insert term into the database"
+msgstr "вы не можете включать условия в базу данных"
+
+#: bsuite.php:1195
+msgid "Could not insert session into the database"
+msgstr "вы не можете включить сеанс в базу данных"
+
+#: bsuite.php:1276
+msgid "Could not insert bsuite_hits_target into the database"
+msgstr "не можете включить bsuite_hits_цель в базу данных"
+
+#: bsuite.php:1284
+msgid "Could not insert bsuite_hits_searchword into the database"
+msgstr "вы не можете включить bsuite_hits_поиск слова в базу данных"
+
+#: bsuite.php:1292
+msgid "Could not insert bsuite_hits_session_history into the database"
+msgstr "вы не можете включить  bsuite_hits_сеанс_истории в базу данных"
+
+#: bsuite.php:1300
+msgid "Could not clean up the incoming stats table"
+msgstr "Статистика не очищается в таблице"
+
+#: bsuite.php:1806
+#, php-format
+msgid "Permalink to %s"
+msgstr "Прямая ссылка на %s"
+
+#: bsuite.php:1808
+msgid "Read the rest of this entry"
+msgstr "прочесть часть этой статьи"
+
+#: bsuite.php:1811
+#, php-format
+msgid "Posted by %s"
+msgstr "отправлено  %s"
+
+#: bsuite.php:1811
+#, php-format
+msgid "View all posts by %s"
+msgstr "все постыпросмотрены %s"
+
+#: bsuite.php:1813
+#, php-format
+msgid "%1$s &#8211; %2$s"
+msgstr "%1$s &#8211; %2$s"
+
+#: bsuite.php:1816
+msgid "Edit"
+msgstr "редактировать"
+
+#: bsuite.php:1817
+msgid "Comments (0)"
+msgstr "комментарии (0)"
+
+#: bsuite.php:1817
+msgid "Comments (1)"
+msgstr "комментарии (1)"
+
+#: bsuite.php:1817
+msgid "Comments (%)"
+msgstr "комментарии (%)"
+
+#: bsuite.php:1942
+msgid "bSuite interval. Set in bSuite options page."
+msgstr "bSuite интервал. установить это в страницу опций bSuite"
+
+#: bsuite.php:2326
+msgid "Who can edit this page?"
+msgstr "кто может редактировать эту страницу?"
+
+#: bsuite.php:2329
+#: ui_options.php:112
+msgid "Anyone"
+msgstr "каждый"
+
+#: bsuite.php:2330
+#: ui_options.php:113
+msgid "Registered users"
+msgstr "зарегистрированные пользователи"
+
+#: bsuite.php:2331
+#: ui_options.php:114
+msgid "Authors and Editors"
+msgstr "авторы и редакторы"
+
+#: bsuite.php:2332
+#: ui_options.php:115
+msgid "Just Editors"
+msgstr "только редакторы"
+
+#: bsuite.php:2355
+msgid "Tags"
+msgstr "тэги"
+
+#: bsuite.php:2391
+msgid "bSuite Machine Tags"
+msgstr "bSuite машинные тэги"
+
+#: bsuite.php:2407
+msgid "Excerpt"
+msgstr "отрывок"
+
+#: bsuite.php:2409
+msgid "Excerpts are optional hand-crafted summaries of your content. You can <a href=\"http://codex.wordpress.org/Template_Tags/the_excerpt\" target=\"_blank\">use them in your template</a>"
+msgstr "отрывки являются дополнительными выполненными руками итоги вашего содержания. вы можете  <a href=\"http://codex.wordpress.org/Template_Tags/the_excerpt\" target=\"_blank\"> использовать их в вашем шаблоне </a>"
+
+#: bsuite.php:2419
+msgid "Categories"
+msgstr "категории"
+
+#: bsuite.php:2423
+msgid "+ Add New Category"
+msgstr "+ добавить новые категории"
+
+#: bsuite.php:2425
+msgid "New category name"
+msgstr "имя новой категории"
+
+#: bsuite.php:2426
+msgid "Parent category"
+msgstr "начальная категория"
+
+#: bsuite.php:2427
+msgid "Add"
+msgstr "добавить"
+
+#: bsuite.php:2434
+msgid "All Categories"
+msgstr "все категории"
+
+#: bsuite.php:2435
+msgid "Most Used"
+msgstr "наиболее использованные"
+
+#: bsuite.php:2557
+msgid "Related Posts"
+msgstr "связанные посты"
+
+#: bsuite.php:2593
+#: bsuite.php:2732
+#: bsuite.php:2905
+#: bsuite.php:3004
+msgid "Title:"
+msgstr "название"
+
+#: bsuite.php:2594
+#: bsuite.php:2734
+#: bsuite.php:2907
+msgid "Number of posts to show:"
+msgstr "показать номера постов"
+
+#: bsuite.php:2594
+#: bsuite.php:2734
+#: bsuite.php:2907
+#: bsuite.php:3005
+msgid "(at most 15)"
+msgstr "(не больше чем15"
+
+#: bsuite.php:2607
+msgid "Bookmark &amp; Feeds"
+msgstr "пометка  &amp; питание"
+
+#: bsuite.php:2631
+#: bsuite.php:2751
+msgid "Recently Commented Posts"
+msgstr "посты, которые недавно комментировали"
+
+#: bsuite.php:2714
+msgid "Recently Commented"
+msgstr "недавно комментировали"
+
+#: bsuite.php:2736
+#: bsuite.php:2911
+msgid "Show:"
+msgstr "показать:"
+
+#: bsuite.php:2737
+#: bsuite.php:2912
+msgid "icon:"
+msgstr "иконка:"
+
+#: bsuite.php:2738
+#: bsuite.php:2913
+msgid "title:"
+msgstr "название"
+
+#: bsuite.php:2739
+#: bsuite.php:2914
+msgid "counts:"
+msgstr "счета:"
+
+#: bsuite.php:2749
+msgid "A list of posts and pages with recent comments"
+msgstr "список постов и страниц с последними комментариями:"
+
+#: bsuite.php:2791
+#: bsuite.php:2884
+#: bsuite.php:2926
+msgid "Popular Posts"
+msgstr "популярные посты:"
+
+#: bsuite.php:2909
+msgid "In past x days (1 = today only):"
+msgstr "в прошлом x дней (1= только сегодня)"
+
+#: bsuite.php:2909
+msgid "(at most 30)"
+msgstr "(не меньше чем 30)"
+
+#: bsuite.php:2924
+msgid "Your site&#8217;s most popular posts and pages"
+msgstr "ваш сайт &#8217;s еаиьолее популярные посты и страницы"
+
+#: bsuite.php:2950
+msgid "Recent Search Terms"
+msgstr "последний термин поиска"
+
+#: bsuite.php:3005
+msgid "Number of refs to show:"
+msgstr "Количество refs для показа:"
+
+#: bsuite.php:3014
+#: bsuite.php:3015
+msgid "bSuite Related Posts"
+msgstr "bSuite связанные посты"
+
+#: bsuite.php:3017
+msgid "bSuite Share Links"
+msgstr "bSuite ссылки"
+
+#: bsuite.php:3019
+#: bsuite.php:3020
+msgid "bStat Refs"
+msgstr "bStat Refs"
+
+#: bsuite.php:3293
+msgid "Rebuilding bSuite search index."
+msgstr "создать новый bSuite индекс поиска"
+
+#: bsuite.php:3296
+#: bsuite.php:3343
+#: importer_tags.php:90
+msgid "If your browser doesn't start loading the next page automatically click this link:"
+msgstr "есливаш браузер не загружается, следующая страница автоматически щёлкнет эту ссылку"
+
+#: bsuite.php:3296
+#: bsuite.php:3301
+#: ui_options.php:31
+#: ui_options.php:198
+msgid "Rebuild bSuite search index"
+msgstr "создать новый bSuite индекс поиска"
+
+#: bsuite.php:3296
+#: bsuite.php:3343
+#: importer_tags.php:90
+msgid "Next Posts"
+msgstr "следующие посты"
+
+#: bsuite.php:3309
+msgid "bSuite metdata index rebuilt."
+msgstr "bSuite ремонтировать индекс"
+
+#: bsuite.php:3340
+msgid "Generating excerpts."
+msgstr "генерировать отрывок"
+
+#: bsuite.php:3343
+#: bsuite.php:3348
+#: ui_options.php:33
+#: ui_options.php:199
+msgid "Add post_excerpt to all posts"
+msgstr "добавить пост_отрывок ко всем постам"
+
+#: bsuite.php:3356
+msgid "All posts now have excerpts! All done."
+msgstr "все посты сейчас имеют отрывки. всё сделано."
+
+#: importer_bstat.php:80
+msgid "bSuite bStat Upgrader"
+msgstr "bSuite bStat модернизация"
+
+#: importer_bstat.php:92
+msgid "If you used bSuite3 for stats collection, you&#8217;ll need this (or some manual MySQL queries) to move the data into the new bSuite4 tables."
+msgstr "есл вы используете bSuite3 для начальнойколлекции, вам&#8217;нужен этот (или какой-нибудь другой ручной MySQL запрос) для того, чтобы переместить данные в новые bSuite4 таблицы"
+
+#: importer_bstat.php:95
+msgid "Huh? You&#8217;ve got no tables to import."
+msgstr "а? у вас &#8217;  нет таблиц для импортирования"
+
+#: importer_bstat.php:97
+msgid "Ack! Failed to reset PHP&#8217;s <a href=\"http://php.net/set_time_limit\">maximum execution time</a>."
+msgstr "неудача при восстановлении PHP&#8217;s <a href=\"http://php.net/установить_лимит_времени\">максимальноевремя выполнения</a>."
+
+#: importer_bstat.php:98
+msgid "Your server&#8217;s default time of "
+msgstr "ваш сервер&#8217;s по умолчанию время"
+
+#: importer_bstat.php:98
+msgid " seconds may be too low to complete this upgrade. Some queries can take as long as 30 minutes to complete on a large data set."
+msgstr "секунды могут быть слишком медленными для того, чтобы завершить эту модернизацию.  некоторые запросымогут занимать не меньше, чем30 минут, чтобызавершить установкубольшой базы данной"
+
+#: importer_bstat.php:99
+msgid "You can try executing the MySQL commands manually if you&#8217;d like."
+msgstr "вы можете попробовать выполнить команды MySQL вручную, если вы &#8217;d "
+
+#: importer_bstat.php:101
+msgid "You must activate bSuite 4 before proceeding."
+msgstr "вы должны активизировать bSuite 4 до продолжения"
+
+#: importer_bstat.php:104
+msgid "It&#8217;s worth mentioning that most people recommend backing up your database before doing things like this."
+msgstr "&#8217;s стои напомнить, что большинству рекомендуется возвратить базу данных перед тем, какделать это"
+
+#: importer_bstat.php:106
+msgid "Import hits stats &raquo;"
+msgstr "Импорт статистики переходов &raquo;"
+
+#: importer_bstat.php:134
+msgid "Import search terms &raquo;"
+msgstr "импортировать термины поиска  &raquo;"
+
+#: importer_bstat.php:154
+msgid "Import search targets &raquo;"
+msgstr "импортировать объекты поиска  &raquo;"
+
+#: importer_bstat.php:174
+msgid "Clean up taxonomies &raquo;"
+msgstr "получить таксономию  &raquo;"
+
+#: importer_bstat.php:193
+msgid "Clean up terms &raquo;"
+msgstr "получить сроки  &raquo;"
+
+#: importer_bstat.php:213
+msgid "Optimize tables &raquo;"
+msgstr "оптимизировать таблицы  &raquo;"
+
+#: importer_bstat.php:233
+msgid "Delete old tables &raquo;"
+msgstr "удалить старые таблицы &raquo;"
+
+#: importer_tags.php:110
+msgid "bSuite Tag Importer"
+msgstr "bSuite импортер тэга"
+
+#: importer_tags.php:119
+msgid "Howdy! This imports tags from posts in this blog to the new WordPress native tagging structure."
+msgstr "импорт тэгов с постов в этот блог в новую структуру тэгов WordPress "
+
+#: importer_tags.php:120
+msgid "This has not been tested much. Mileage may vary."
+msgstr "это не было много раз протестировано. Mileage may vary"
+
+#: importer_tags.php:121
+msgid "Don&#8217;t be stupid - backup your database before proceeding!"
+msgstr "&#8217 не будьте глупыми - пробудлируйте вашу базу данных перед тем, как продолжить"
+
+#: importer_tags.php:123
+msgid "Step 1 &raquo;"
+msgstr "мера 1 &raquo;"
+
+#: ui_options.php:35
+#: ui_options.php:211
+msgid "Show rewrite rules"
+msgstr "показать правила подстановки"
+
+#: ui_options.php:36
+msgid "The current rewrite rules (permlink settings)"
+msgstr "текущие правила подстановки (настройки permlin)"
+
+#: ui_options.php:41
+#: ui_options.php:200
+msgid "Force Stats Migration"
+msgstr "вынужденная пересылка"
+
+#: ui_options.php:47
+msgid "Completed stats migration"
+msgstr "завершённая пересылка"
+
+#: ui_options.php:48
+#: ui_options.php:212
+msgid "PHP Info"
+msgstr "PHP информация"
+
+#: ui_options.php:61
+msgid "Options"
+msgstr "опции"
+
+#: ui_options.php:69
+msgid "Insert related posts links at bottom of each post"
+msgstr "включать связанные ссылками посты в низу каждого поста"
+
+#: ui_options.php:80
+msgid "Insert share links at bottom of posts"
+msgstr "включать ссылки внизу постов"
+
+#: ui_options.php:91
+msgid "Enhance WordPress search with full text keyword indexing"
+msgstr "повышать  уровень поиска  WordPress при помощи индексорования полного текстового ключевого слова"
+
+#: ui_options.php:101
+msgid "Highlight search words for users who arrive at this site from recognized search engines"
+msgstr "выделить значение для пользователей, кто попал на этот сайт через распознаваемые поисковые системы"
+
+#: ui_options.php:110
+msgid "Who can edit pages"
+msgstr "кто может редактировать страницы?"
+
+#: ui_options.php:127
+msgid "Management focus"
+msgstr "управление фокусам"
+
+#: ui_options.php:131
+msgid "Focus default management view on current user"
+msgstr "управление фокусом по умолчанию при просмотре текущим пользователем"
+
+#: ui_options.php:135
+msgid "Focus default management view on current month"
+msgstr "управлять окусом по умолчанию при просмотре в текущем месяце"
+
+#: ui_options.php:146
+msgid "Insert default CSS"
+msgstr "включить по умолчанию CSS"
+
+#: ui_options.php:154
+msgid "Cron settings"
+msgstr "Настройки Cron"
+
+#: ui_options.php:156
+msgid "Seconds between migrations"
+msgstr "секунды между персылками"
+
+#: ui_options.php:158
+msgid "Maximum number of items to process"
+msgstr "максимальное число пунктов для обработки"
+
+#: ui_options.php:164
+msgid "Load awareness"
+msgstr "Загрузка awareness"
+
+#: ui_options.php:166
+msgid "Limit background processing when system load average is over"
+msgstr "ограничить фоновую обработку процесса, когда средняя загрузка системы закончена"
+
+#: ui_options.php:179
+msgid "Save Changes"
+msgstr "сохранить изменения"
+
+#: ui_options.php:187
+msgid "Documentation"
+msgstr "документация"
+
+#: ui_options.php:188
+msgid "More information about bSuite is available at <a href=\"http://maisonbisson.com/blog/bsuite/\">MaisonBisson.com</a>."
+msgstr "больше информации о  bSuite достпно на <a href=\"http://maisonbisson.com/blog/bsuite/\">MaisonBisson.com</a>."
+
+#: ui_options.php:192
+msgid "bSuite Commands"
+msgstr "команды bSuite"
+
+#: ui_options.php:193
+msgid "bSuite will do these things automatically; these buttons are here for the impatient."
+msgstr "bSuite не делает этивещи автоматически; эти кнопки здесь для самых нетерпеливых"
+
+#: ui_options.php:205
+msgid "Debugging Tools"
+msgstr "инструменты для отладки"
+
+#: ui_options.php:206
+msgid "Easy access to information about WordPress and PHP."
+msgstr "легкий доступ к информации о  WordPress and PHP."
+
+#: ui_stats.php:33
+msgid "Quick Stats"
+msgstr "Быстрая статистика"
+
+#: ui_stats.php:151
+msgid "Page Loads"
+msgstr "страница загрузки"
+
+#: ui_stats.php:211
+msgid "Other Access"
+msgstr "другиедругой доступ"
+
+#: ui_stats.php:294
+msgid "Most Trafficked Categories and Tags"
+msgstr "большинствоторговых категорий и тэгов"
+
+#: ui_stats.php:417
+msgid "Referrers"
+msgstr "Переходы"
+
+#. Plugin Name of an extension
+msgid "bSuite"
+msgstr "bSuite"
+
+#. Plugin URI of an extension
+msgid "http://maisonbisson.com/bsuite/"
+msgstr "http://maisonbisson.com/bsuite/"
+
+#. Description of an extension
+msgid "Stats tracking, improved sharing, related posts, CMS features, and a kitchen sink. <a href=\"http://maisonbisson.com/bsuite/\">Documentation here</a>."
+msgstr "Информация доступна в <a href=\"http://maisonbisson.com/bsuite/\">документации</a>."
+
+#. Author of an extension
+msgid "Casey Bisson"
+msgstr "Casey Bisson"
+
+#. Author URI of an extension
+msgid "http://maisonbisson.com/blog/"
+msgstr "http://maisonbisson.com/blog/"
+

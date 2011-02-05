@@ -1,0 +1,16 @@
+#bsuite_machine_tags li {
+	list-style: none;
+}
+
+#bsuite_machine_tags .taxonomy:hover, #bsuite_machine_tags .taxonomy:focus, #bsuite_machine_tags .term:hover, #bsuite_machine_tags .term:focus {
+	-webkit-transform: scale(1.3,1.5);
+}
+
+#bsuite_machine_tags button:hover, #bsuite_machine_tags button:focus {
+	cursor: pointer;
+	-webkit-transform: scale(1.3,2) translate(0px, 2px);
+}
+
+#bsuite_machine_tags .sortable {
+	cursor: pointer;
+}

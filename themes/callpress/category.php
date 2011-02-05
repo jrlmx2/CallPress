@@ -2,9 +2,9 @@
 /**
  * The template for displaying Category Archive pages.
  *
- * @package WordPress
- * @subpackage Twenty_Ten
- * @since Twenty Ten 1.0
+ * @package CallPress
+ * @subpackage CallPress
+ * @since CallPress 0.5
  */
 
 get_header(); ?>

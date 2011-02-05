@@ -1,0 +1,545 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Casey Bisson
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/bsuite\n"
+"POT-Creation-Date: 2009-01-28 21:52+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: bsuite.php:210 bsuite.php:211
+msgid "bSuite Post Icon"
+msgstr ""
+
+#: bsuite.php:741
+msgid "Upload New"
+msgstr ""
+
+#: bsuite.php:742
+#, php-format
+msgid "%s max"
+msgstr ""
+
+#: bsuite.php:749 bsuite.php:766 bsuite.php:782
+msgid "You do not have permission to upload files."
+msgstr ""
+
+#: bsuite.php:755 bsuite.php:772 bsuite.php:789
+msgid "You cannot add an icon to a post you`re not currently editing."
+msgstr ""
+
+#: bsuite.php:1090
+msgid "Permalink"
+msgstr ""
+
+#: bsuite.php:1157
+msgid "Could not insert term into the database"
+msgstr ""
+
+#: bsuite.php:1195
+msgid "Could not insert session into the database"
+msgstr ""
+
+#: bsuite.php:1276
+msgid "Could not insert bsuite_hits_target into the database"
+msgstr ""
+
+#: bsuite.php:1284
+msgid "Could not insert bsuite_hits_searchword into the database"
+msgstr ""
+
+#: bsuite.php:1292
+msgid "Could not insert bsuite_hits_session_history into the database"
+msgstr ""
+
+#: bsuite.php:1300
+msgid "Could not clean up the incoming stats table"
+msgstr ""
+
+#: bsuite.php:1806
+#, php-format
+msgid "Permalink to %s"
+msgstr ""
+
+#: bsuite.php:1808
+msgid "Read the rest of this entry"
+msgstr ""
+
+#: bsuite.php:1811
+#, php-format
+msgid "Posted by %s"
+msgstr ""
+
+#: bsuite.php:1811
+#, php-format
+msgid "View all posts by %s"
+msgstr ""
+
+#: bsuite.php:1813
+#, php-format
+msgid "%1$s &#8211; %2$s"
+msgstr ""
+
+#: bsuite.php:1816
+msgid "Edit"
+msgstr ""
+
+#: bsuite.php:1817
+msgid "Comments (0)"
+msgstr ""
+
+#: bsuite.php:1817
+msgid "Comments (1)"
+msgstr ""
+
+#: bsuite.php:1817
+msgid "Comments (%)"
+msgstr ""
+
+#: bsuite.php:1942
+msgid "bSuite interval. Set in bSuite options page."
+msgstr ""
+
+#: bsuite.php:2326
+msgid "Who can edit this page?"
+msgstr ""
+
+#: bsuite.php:2329 ui_options.php:112
+msgid "Anyone"
+msgstr ""
+
+#: bsuite.php:2330 ui_options.php:113
+msgid "Registered users"
+msgstr ""
+
+#: bsuite.php:2331 ui_options.php:114
+msgid "Authors and Editors"
+msgstr ""
+
+#: bsuite.php:2332 ui_options.php:115
+msgid "Just Editors"
+msgstr ""
+
+#: bsuite.php:2355
+msgid "Tags"
+msgstr ""
+
+#: bsuite.php:2391
+msgid "bSuite Machine Tags"
+msgstr ""
+
+#: bsuite.php:2407
+msgid "Excerpt"
+msgstr ""
+
+#: bsuite.php:2409
+msgid ""
+"Excerpts are optional hand-crafted summaries of your content. You can <a "
+"href=\"http://codex.wordpress.org/Template_Tags/the_excerpt\" target=\"_blank"
+"\">use them in your template</a>"
+msgstr ""
+
+#: bsuite.php:2419
+msgid "Categories"
+msgstr ""
+
+#: bsuite.php:2423
+msgid "+ Add New Category"
+msgstr ""
+
+#: bsuite.php:2425
+msgid "New category name"
+msgstr ""
+
+#: bsuite.php:2426
+msgid "Parent category"
+msgstr ""
+
+#: bsuite.php:2427
+msgid "Add"
+msgstr ""
+
+#: bsuite.php:2434
+msgid "All Categories"
+msgstr ""
+
+#: bsuite.php:2435
+msgid "Most Used"
+msgstr ""
+
+#: bsuite.php:2557
+msgid "Related Posts"
+msgstr ""
+
+#: bsuite.php:2593 bsuite.php:2732 bsuite.php:2905 bsuite.php:3004
+msgid "Title:"
+msgstr ""
+
+#: bsuite.php:2594 bsuite.php:2734 bsuite.php:2907
+msgid "Number of posts to show:"
+msgstr ""
+
+#: bsuite.php:2594 bsuite.php:2734 bsuite.php:2907 bsuite.php:3005
+msgid "(at most 15)"
+msgstr ""
+
+#: bsuite.php:2607
+msgid "Bookmark &amp; Feeds"
+msgstr ""
+
+#: bsuite.php:2631 bsuite.php:2751
+msgid "Recently Commented Posts"
+msgstr ""
+
+#: bsuite.php:2714
+msgid "Recently Commented"
+msgstr ""
+
+#: bsuite.php:2736 bsuite.php:2911
+msgid "Show:"
+msgstr ""
+
+#: bsuite.php:2737 bsuite.php:2912
+msgid "icon:"
+msgstr ""
+
+#: bsuite.php:2738 bsuite.php:2913
+msgid "title:"
+msgstr ""
+
+#: bsuite.php:2739 bsuite.php:2914
+msgid "counts:"
+msgstr ""
+
+#: bsuite.php:2749
+msgid "A list of posts and pages with recent comments"
+msgstr ""
+
+#: bsuite.php:2791 bsuite.php:2884 bsuite.php:2926
+msgid "Popular Posts"
+msgstr ""
+
+#: bsuite.php:2909
+msgid "In past x days (1 = today only):"
+msgstr ""
+
+#: bsuite.php:2909
+msgid "(at most 30)"
+msgstr ""
+
+#: bsuite.php:2924
+msgid "Your site&#8217;s most popular posts and pages"
+msgstr ""
+
+#: bsuite.php:2950
+msgid "Recent Search Terms"
+msgstr ""
+
+#: bsuite.php:3005
+msgid "Number of refs to show:"
+msgstr ""
+
+#: bsuite.php:3014 bsuite.php:3015
+msgid "bSuite Related Posts"
+msgstr ""
+
+#: bsuite.php:3017
+msgid "bSuite Share Links"
+msgstr ""
+
+#: bsuite.php:3019 bsuite.php:3020
+msgid "bStat Refs"
+msgstr ""
+
+#: bsuite.php:3293
+msgid "Rebuilding bSuite search index."
+msgstr ""
+
+#: bsuite.php:3296 bsuite.php:3343 importer_tags.php:90
+msgid ""
+"If your browser doesn't start loading the next page automatically click this "
+"link:"
+msgstr ""
+
+#: bsuite.php:3296 bsuite.php:3301 ui_options.php:31 ui_options.php:198
+msgid "Rebuild bSuite search index"
+msgstr ""
+
+#: bsuite.php:3296 bsuite.php:3343 importer_tags.php:90
+msgid "Next Posts"
+msgstr ""
+
+#: bsuite.php:3309
+msgid "bSuite metdata index rebuilt."
+msgstr ""
+
+#: bsuite.php:3340
+msgid "Generating excerpts."
+msgstr ""
+
+#: bsuite.php:3343 bsuite.php:3348 ui_options.php:33 ui_options.php:199
+msgid "Add post_excerpt to all posts"
+msgstr ""
+
+#: bsuite.php:3356
+msgid "All posts now have excerpts! All done."
+msgstr ""
+
+#: importer_bstat.php:80
+msgid "bSuite bStat Upgrader"
+msgstr ""
+
+#: importer_bstat.php:92
+msgid ""
+"If you used bSuite3 for stats collection, you&#8217;ll need this (or some "
+"manual MySQL queries) to move the data into the new bSuite4 tables."
+msgstr ""
+
+#: importer_bstat.php:95
+msgid "Huh? You&#8217;ve got no tables to import."
+msgstr ""
+
+#: importer_bstat.php:97
+msgid ""
+"Ack! Failed to reset PHP&#8217;s <a href=\"http://php.net/set_time_limit"
+"\">maximum execution time</a>."
+msgstr ""
+
+#: importer_bstat.php:98
+msgid "Your server&#8217;s default time of "
+msgstr ""
+
+#: importer_bstat.php:98
+msgid ""
+" seconds may be too low to complete this upgrade. Some queries can take as "
+"long as 30 minutes to complete on a large data set."
+msgstr ""
+
+#: importer_bstat.php:99
+msgid "You can try executing the MySQL commands manually if you&#8217;d like."
+msgstr ""
+
+#: importer_bstat.php:101
+msgid "You must activate bSuite 4 before proceeding."
+msgstr ""
+
+#: importer_bstat.php:104
+msgid ""
+"It&#8217;s worth mentioning that most people recommend backing up your "
+"database before doing things like this."
+msgstr ""
+
+#: importer_bstat.php:106
+msgid "Import hits stats &raquo;"
+msgstr ""
+
+#: importer_bstat.php:134
+msgid "Import search terms &raquo;"
+msgstr ""
+
+#: importer_bstat.php:154
+msgid "Import search targets &raquo;"
+msgstr ""
+
+#: importer_bstat.php:174
+msgid "Clean up taxonomies &raquo;"
+msgstr ""
+
+#: importer_bstat.php:193
+msgid "Clean up terms &raquo;"
+msgstr ""
+
+#: importer_bstat.php:213
+msgid "Optimize tables &raquo;"
+msgstr ""
+
+#: importer_bstat.php:233
+msgid "Delete old tables &raquo;"
+msgstr ""
+
+#: importer_tags.php:110
+msgid "bSuite Tag Importer"
+msgstr ""
+
+#: importer_tags.php:119
+msgid ""
+"Howdy! This imports tags from posts in this blog to the new WordPress native "
+"tagging structure."
+msgstr ""
+
+#: importer_tags.php:120
+msgid "This has not been tested much. Mileage may vary."
+msgstr ""
+
+#: importer_tags.php:121
+msgid "Don&#8217;t be stupid - backup your database before proceeding!"
+msgstr ""
+
+#: importer_tags.php:123
+msgid "Step 1 &raquo;"
+msgstr ""
+
+#: ui_options.php:35 ui_options.php:211
+msgid "Show rewrite rules"
+msgstr ""
+
+#: ui_options.php:36
+msgid "The current rewrite rules (permlink settings)"
+msgstr ""
+
+#: ui_options.php:41 ui_options.php:200
+msgid "Force Stats Migration"
+msgstr ""
+
+#: ui_options.php:47
+msgid "Completed stats migration"
+msgstr ""
+
+#: ui_options.php:48 ui_options.php:212
+msgid "PHP Info"
+msgstr ""
+
+#: ui_options.php:61
+msgid "Options"
+msgstr ""
+
+#: ui_options.php:69
+msgid "Insert related posts links at bottom of each post"
+msgstr ""
+
+#: ui_options.php:80
+msgid "Insert share links at bottom of posts"
+msgstr ""
+
+#: ui_options.php:91
+msgid "Enhance WordPress search with full text keyword indexing"
+msgstr ""
+
+#: ui_options.php:101
+msgid ""
+"Highlight search words for users who arrive at this site from recognized "
+"search engines"
+msgstr ""
+
+#: ui_options.php:110
+msgid "Who can edit pages"
+msgstr ""
+
+#: ui_options.php:127
+msgid "Management focus"
+msgstr ""
+
+#: ui_options.php:131
+msgid "Focus default management view on current user"
+msgstr ""
+
+#: ui_options.php:135
+msgid "Focus default management view on current month"
+msgstr ""
+
+#: ui_options.php:146
+msgid "Insert default CSS"
+msgstr ""
+
+#: ui_options.php:154
+msgid "Cron settings"
+msgstr ""
+
+#: ui_options.php:156
+msgid "Seconds between migrations"
+msgstr ""
+
+#: ui_options.php:158
+msgid "Maximum number of items to process"
+msgstr ""
+
+#: ui_options.php:164
+msgid "Load awareness"
+msgstr ""
+
+#: ui_options.php:166
+msgid "Limit background processing when system load average is over"
+msgstr ""
+
+#: ui_options.php:179
+msgid "Save Changes"
+msgstr ""
+
+#: ui_options.php:187
+msgid "Documentation"
+msgstr ""
+
+#: ui_options.php:188
+msgid ""
+"More information about bSuite is available at <a href=\"http://maisonbisson."
+"com/blog/bsuite/\">MaisonBisson.com</a>."
+msgstr ""
+
+#: ui_options.php:192
+msgid "bSuite Commands"
+msgstr ""
+
+#: ui_options.php:193
+msgid ""
+"bSuite will do these things automatically; these buttons are here for the "
+"impatient."
+msgstr ""
+
+#: ui_options.php:205
+msgid "Debugging Tools"
+msgstr ""
+
+#: ui_options.php:206
+msgid "Easy access to information about WordPress and PHP."
+msgstr ""
+
+#: ui_stats.php:33
+msgid "Quick Stats"
+msgstr ""
+
+#: ui_stats.php:151
+msgid "Page Loads"
+msgstr ""
+
+#: ui_stats.php:211
+msgid "Other Access"
+msgstr ""
+
+#: ui_stats.php:294
+msgid "Most Trafficked Categories and Tags"
+msgstr ""
+
+#: ui_stats.php:417
+msgid "Referrers"
+msgstr ""
+
+#. Plugin Name of an extension
+msgid "bSuite"
+msgstr ""
+
+#. Plugin URI of an extension
+msgid "http://maisonbisson.com/bsuite/"
+msgstr ""
+
+#. Description of an extension
+msgid ""
+"Stats tracking, improved sharing, related posts, CMS features, and a kitchen "
+"sink. <a href=\"http://maisonbisson.com/bsuite/\">Documentation here</a>."
+msgstr ""
+
+#. Author of an extension
+msgid "Casey Bisson"
+msgstr ""
+
+#. Author URI of an extension
+msgid "http://maisonbisson.com/blog/"
+msgstr ""
