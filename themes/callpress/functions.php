@@ -481,3 +481,5 @@ function twentyten_posted_in() {
 	);
 }
 endif;
+
+include 'widgets/ticket_widget.class.php';

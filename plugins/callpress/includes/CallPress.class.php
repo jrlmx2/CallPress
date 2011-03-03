@@ -21,6 +21,12 @@ class CallPress {
 			'parent_item_colon' => __('Ticket'),
 			'menu_name' => __('Ticket Menu')
 		);//end var ticket_labels
+
+		//This array is used to define rewrite rules
+		$rewrite = array(
+			'slug' => 'ticket',
+			'front' => true,
+		);
 		
 		// This array sets the diffults for the post type ticket. It is highly recomended that you do not edit defaults form here but rely on the action after this array delcartion 
 		$ticket_args = array( 
@@ -41,7 +47,7 @@ class CallPress {
 			//'supports' => '',
 			//'taxonomies' => //todo
 			//'permalink_epmask' => //wtf
-			'rewrite' => false,
+			'rewrite' => $rewrite,
 			'query_var' => 'ticket',
 			'can_export' => true,
 			'show_in_nav_menus' => true,
