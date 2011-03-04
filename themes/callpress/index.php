@@ -20,15 +20,7 @@ get_header(); ?>
 
 			<?php
 				/* This is where navigation is handled */
-				if( ) { 
-				}
-				elseif( is_archieve() || is_singular() || is_single() ) {
-					include 'ticket.php';
-				}
-				else {
-					include 'home.php';
-				}
-				
+				echo 'shitty shit shit shit';
 			?>
 			</div><!-- #content -->
 		</div><!-- #container -->
