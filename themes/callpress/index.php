@@ -13,16 +13,8 @@
  * @since Twenty Ten 1.0
  */
 
-get_header(); ?>
+get_header();
 
-		<div id="container">
-			<div id="content" role="main">
-
-			<?php
-				/* This is where navigation is handled */
-				echo 'shitty shit shit shit';
-			?>
-			</div><!-- #content -->
-		</div><!-- #container -->
+get_template_part( 'ticket' ); ?>
 
 <?php get_footer(); ?>

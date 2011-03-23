@@ -33,9 +33,13 @@
 		echo ' | ' . sprintf( __( 'Page %s', 'twentyten' ), max( $paged, $page ) );
 
 	?></title>
+<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url');?>/960/960.css">
 <link rel="profile" href="http://gmpg.org/xfn/11" />
 <link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_url' ); ?>" />
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
+<script type="text/javascript">
+	var ajaxurl = "<?php $url = get_bloginfo( 'siteurl' ); $url.= '/wp-admin/admin-ajax.php'; echo $url; ?>";
+</script>
 <?php
 	/* We add some JavaScript to pages with the comment form
 	 * to support sites with threaded comments (when in use).
@@ -68,4 +72,4 @@
 		</div><!-- #masthead -->
 	</div><!-- #header -->
 
-	<div id="main">
+	<div id="main" class="container_16">

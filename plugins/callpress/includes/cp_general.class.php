@@ -20,7 +20,7 @@ class cp_general
 
 				function __construct()
 				{
-								$tag_net = get_option( 'tag_net' );
+								$tag_net = explode( ',', get_option( 'callpress_tag_net' ) );
 				}
 				
  				public static function update_all_taxonomy_count()

@@ -14,4 +14,5 @@ Version: 0.5
 include 'includes/callpress.inc.php';
 
 add_action( 'init', 'CallPress::init' );
+add_action( 'wp_enqueue_scripts', 'CallPress::scripts' );
 ?>

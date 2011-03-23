@@ -33,11 +33,11 @@ class cp_ticket extends cp_general
 
 	function __construct() {}
 
-	/*
+	/* :T1
 	 * adds a ticket
 	 */
 
-	function add_ticket() {
+	public static function add_ticket() {
 		GLOBAL $current_user;
 		$current_user = get_currentuserinfo();
 
@@ -47,7 +47,7 @@ class cp_ticket extends cp_general
 		$post['post_status'] = 'draft';
 		$post['post_type'] = 'ticket';
 
-		if( $possible_tags = explode( ' ' , strtolower($_POST['content']) ) ) {
+		/*if( $possible_tags = explode( ' ' , strtolower($_POST['content']) ) ) {
 			$replace = array( ',', '.', '<', '>', '(', ')', ';', ':', '[', ']' );
 			$possible_tags = str_replace( $replace, '', $possible_tags );
 
@@ -56,7 +56,7 @@ class cp_ticket extends cp_general
 
 				foreach( $possible_tags as $possible_tag ) {
 					trim($possible_tag);
-					if( !in_array( $possible_tag, $GLOBALS['non_tags'] ) ) {
+					if( !in_array( $possible_tag, ) ) {
 						if( !in_array( $possible_tag , $tags ) ) {
 							$tags[] = $possible_tag;
 						}
@@ -66,17 +66,16 @@ class cp_ticket extends cp_general
 				$tags = strtolower( $_POST['tags'] );
 				foreach( $possible_tags as $possible_tag ) {
 					trim($possible_tag);
-					if( !in_array( $possible_tag, $GLOBALS['non_tags'] ) ) {
+					if( !in_array( $possible_tag, $cp_general->tag_net ) ) {
 						if( strcmp( $possible_tag , $tags ) != 0 ) {
 							$tags[] = $possible_tag;
 						}
 					}
 				}
 			}
-		}
+		}*/
 		$post_id = wp_insert_post( $post );
 		wp_set_post_tags( $post_id , $tags );
-		update_all_taxonomy_count();
 		add_post_meta( $post_id, 'department_assigned', trim($_POST['category']) );
 		if( $_POST[ 'closed' ] ) {
 			add_post_meta( $post_id, 'closed_by', find_user( $_POST[ 'closed' ] ) );
@@ -99,6 +98,12 @@ class cp_ticket extends cp_general
 			} else {
 				add_post_meta( $post_id, 'object_attached', $id );
 			}
+		}
+		if( $post_id ) {
+			header( 'Content-type: json' ); 
+			//if the post id is set, return a permalink as json to redirect to it display
+			echo json_encode( array( 'url' => get_permalink( $post_id ) ) );
+			die();
 		}
 	}
 
@@ -354,3 +359,4 @@ function attach()
 }
 
 }
+add_action( 'wp_ajax_add_ticket', 'cp_ticket::add_ticket' ); 
