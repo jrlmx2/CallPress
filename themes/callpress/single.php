@@ -37,6 +37,9 @@ get_header(); ?>
 	
 <?php else : ?>
 <!-- view single ticket -->
+	<h2><?php echo $post->post_title; ?></h2>
+	<p><?php echo $post->post_content; ?></p>
+	<?php comments_template(); ?>
 
 <?php endif; ?>
 			

@@ -12,6 +12,9 @@
 <html <?php language_attributes(); ?>>
 <head>
 <meta charset="<?php bloginfo( 'charset' ); ?>" />
+<?php //if user is not logged in log them in then redirect them
+	if( !is_user_logged_in() ){ auth_redirect(); }
+?>
 <title><?php
 	/*
 	 * Print the <title> tag based on what is being viewed.

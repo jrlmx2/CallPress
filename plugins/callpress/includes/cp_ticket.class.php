@@ -44,8 +44,9 @@ class cp_ticket extends cp_general
 		$post['post_author'] = $current_user->user_ID;
 		$post['post_title'] = trim( $_POST['title'] );
 		$post['post_content'] = $_POST['content'];
-		$post['post_status'] = 'draft';
+		$post['post_status'] = 'publish';
 		$post['post_type'] = 'ticket';
+		$post['comment_status'] = 'open';
 
 		/*if( $possible_tags = explode( ' ' , strtolower($_POST['content']) ) ) {
 			$replace = array( ',', '.', '<', '>', '(', ')', ';', ':', '[', ']' );
